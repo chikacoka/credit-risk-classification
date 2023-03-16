@@ -1,4 +1,4 @@
-# Module 21 Credit Risk Analysis Report
+# Module 21 Credit Risk Analysis Report By Chika Okam
 
 ## Overview of the Analysis
 
@@ -26,7 +26,7 @@ Another set of accuracy score, confusion matrix, and classification report were 
 * Machine Learning Model 1:
 
 According to scikit-learn.org, the accuracy_score function computes the accuracy of correct predictions.The model's accuracy score of approximately 99.18% reveals its reliability in reasonably predicting the credit worthiness of potential borrowers. However, according to Klein (2022), the 'accuracy' measure is not always an adequate performance measure, and the confusion matrix helps make it easy for us to see what kind of confusions occur in our classification algorithms. 
-Going by the confusion matrix, we see that the model predicted 18,663 performing loans ('0') correctly, in contrast with the actual of 18,765 (18663 + 102) performing loans, approximately 99% accurate predictions of '0' (performing loans), with a great precision score of 1. The model also predicted a total of 563 defaults('1') in contrast with the actual of 619 (563 + 56), approximately 91% accurate prediction of '1' (non-performing loans or defaults), with a 0.85 precision score.
+Going by the confusion matrix, we see that the model predicted 18,663 performing loans ('0') correctly, in contrast with the actual of 18,765 (18663 + 102) performing loans, approximately 99% accurate predictions of '0' (performing loans), with a significant precision score of 1. The model also predicted a total of 563 defaults('1') in contrast with the actual of 619 (563 + 56), approximately 91% accurate prediction of '1' (non-performing loans or defaults), with a 0.85 precision score.
 
 * Machine Learning Model 2:
 
