@@ -16,6 +16,7 @@ Loan status (with '1' indicating credit default, and '0' representing a performi
 The value_counts function reveals that, of the 77,356 loans from the raw data, approximately 3.23% (2,500) are non-performing loans (defaults)
 
 * The stages of the machine learning process for this analysis.
+
 The input data is contained in a CSV file which was read from a 'Resources' folder into a Pandas DataFrame. The data was separated into labels (loan_status) and features (Loan size,Interest rate on the loan,Borrower's income,Debt_to_Income ratio,Number of accounts held by the borrower,Derogatory remarks on the borrower's credit report,and Total debt). The data was then split into training and testing data with the standard 75/25 split. This process was followed by fitting the training data into a Logic Regression Model, and then making predictions based on the testing data, and finally deriving the accuracy score, the confusion matrix, and the classification report.
 Using the `RandomOverSampler` module from the imbalanced-learn library the training data was resampled, in contrast with using the previous raw sample data
 Another set of accuracy score, confusion matrix, and classification report were derived.
